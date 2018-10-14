@@ -9,7 +9,7 @@ Using twelve seasons (2003 - 2015) of basketball data we broke our approach into
 
 1. Can we predict who will make the playoffs?
 
-For playoff predictions we used cross validation and L1 regularization techniques to build logistic regression and decision tree models with a resulting final accuracy of 85%. This was a pleasant surprise since we did not take into account (purposefully) performance relative to other teams since making the playoffs is determined on relative wins to other teams in your conference. In addition, the features we used to build our model do not need a full regular season to predict so it would be possible to make a prediction based on mid season results.
+For playoff predictions we used cross validation and L1 regularization techniques to build logistic regression and decision tree models with a resulting final accuracy of 85%. This was a pleasant surprise since we did not take into account (purposefully) performance relative to other teams since making the playoffs is determined on relative wins to other teams in their conference. In addition, the features we used to build our model do not need a full regular season to predict so it would be possible to make a prediction based on mid season results.
 
 2. Of those playoff teams can we predict who will win the championship?
 
